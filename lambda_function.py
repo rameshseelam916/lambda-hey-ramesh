@@ -1,7 +1,7 @@
 import json
 
 def lambda_handler(event, context):
-    message = "hey ramesh"
+    message = "hey ramesh -  deployed by GitHub Actions"
     print(message)
 
     return {
